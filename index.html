@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz-box">
+        <div id="quiz">
+          <h1>JAVASCRIPT Quiz App</h1>
+          <div class="quiz-header">
+            <p id="progress">Choose correct answer</p>
+            <p id="count-down">TimeLeft :00 seconds</p>
+          </div>
+          <hr />
+          
+          <p id="question"></p>
+          <div class="buttons">
+            <button class="option-btns" id="btn0">A. <span id="choice0"></span></button>
+            <button class="option-btns" id="btn1">B. <span id="choice1"></span></button>
+            <button class="option-btns" id="btn2">C. <span id="choice2"></span></button>
+            <button class="option-btns" id="btn3">D. <span id="choice3"></span></button>
+          </div>
+          <br/>
+          <hr />
+          <footer>
+            <button class="button-6" role="button" id="next">Next</button>
+          </footer>
+        </div>
+        <div id="result">
+          <!-- <span>
+          <h1>RESULTS</h1>
+          <hr/>
+          <h3>Total Questions :</h3>
+          <h3>Total Marks :  /</h3>
+        </span> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
